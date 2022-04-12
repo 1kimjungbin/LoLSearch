@@ -18,12 +18,16 @@
 		width: 600px;
 		height: auto;
 	}
-
-	#Summoner_Name {
-		width: 80px;
-		height: 40px;
-	}
 	
+	#Summoner_Name {
+		text-align: center;
+	}
+
+	.Search_input {
+		width: 500px;
+		height: 40px;
+		padding: 0 20px;
+	}
 </style>
 </head>
 <body>
@@ -34,7 +38,9 @@
 	</div>
 	
 	<div id="Summoner_Name">
-		<input type="text" placeholder="소환사의 이름을 입력하세요.">
+		<div class="Search">
+			<input class="Search_input" type="text" placeholder="소환사의 이름을 입력하세요.">
+		</div>
 	</div>
 </body>
 </html>
